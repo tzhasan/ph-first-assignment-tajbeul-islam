@@ -211,8 +211,55 @@ textarea{
 
 .submit{
   border: 2px solid #636e72;
+  margin-bottom: 50px;
 }
 
+/* footer-container style starts here--------- */
+/* footer-container style starts here--------- */
+/* footer-container style starts here--------- */
 
+.footer-container{
+  background-color: black;
+  height: 70vh;
+  margin-top: 130px;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  gap: 90px;
+}
 
+.footer-container>*{
+  width: 35%;
+  padding-top:100px ;
+}
+
+.left-footer h2{
+  font-weight: 700;
+  font-size: 45px;
+  margin-bottom: 16px;
+}
+
+.left-footer p{
+  margin-bottom: 24px;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.icons{
+  display: flex;
+  gap: 10px;
+}
+
+.right-footer>*{
+  margin-bottom: 16px;
+}
+
+.right-footer input{
+  border-radius: 5px;
+}
+
+.right-footer h2{
+  font-weight: 600;
+  font-size: 25px;
+}
 
