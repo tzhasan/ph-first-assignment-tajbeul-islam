@@ -1,0 +1,66 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+html,body{
+  font-family: 'Work Sans', sans-serif;
+}
+
+/* For all button i keep the styles separate */
+.btn-primary{
+  background-color: white;
+  color: #636e72;
+  padding: 18px 20px;
+  font-weight: 600;
+  font-size: 20px;
+  border: 0;
+  border-radius: 5px;
+}
+
+
+/* header section style-------------- */
+/* header section style-------------- */
+/* header section style-------------- */
+
+header{
+  background-image: url(../images/banner/banner2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 90vh;
+  position: relative;
+}
+
+.header-section{
+  width: 600px;
+  height: 300px;
+  position: absolute;
+  right: 15%;
+  top: 30%;
+  text-align: right;
+  color: #636e72;
+}
+.header-section>*{
+  margin-bottom: 28px;
+}
+
+.header-section h1{
+  font-weight: 700;
+  font-size: 40px;
+}
+
+.header-section p{
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.btn-primary:hover{
+  background-color: #636e72;
+  color: white;
+  transition: 0.3s ease;
+  transform: scale(1.1);
+}
+
+/* year section starts here---------- */
+/* year section starts here---------- */
+/* year section starts here---------- */
+
