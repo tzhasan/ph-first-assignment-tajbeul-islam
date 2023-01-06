@@ -17,6 +17,15 @@ html,body{
   border-radius: 5px;
 }
 
+main{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+section{
+  margin-top: 130px;
+}
+
 
 /* header section style-------------- */
 /* header section style-------------- */
@@ -60,7 +69,40 @@ header{
   transform: scale(1.1);
 }
 
-/* year section starts here---------- */
-/* year section starts here---------- */
-/* year section starts here---------- */
+/* motivation section starts here---------- */
+/* motivation section starts here---------- */
+/* motivation section starts here---------- */
 
+.moti-section-container{
+  display: flex;
+  gap: 20px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.moti-descriction{
+  width: 400px;
+}
+
+.moti-descriction h2{
+  margin-bottom: 30px;
+  font-weight: 700;
+  font-size: 40px;
+}
+
+.moti-descriction p{
+  margin-bottom: 10px;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.moti-descriction ul{
+  list-style-type: none;
+}
+
+.moti-descriction ul li{
+  margin-bottom: 5px;
+}
+.moti-descriction ul i{
+  color: #2ecc71;
+}
